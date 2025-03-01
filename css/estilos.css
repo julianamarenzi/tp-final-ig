@@ -1,0 +1,17 @@
+*{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lila{
+    background-color: #dabff4;
+}
+
+.crema{
+    color: #fffed6;
+}
+
+.crema-fondo{
+    background-color: #fff6e5;
+}
