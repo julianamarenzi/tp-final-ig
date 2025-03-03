@@ -1,17 +1,38 @@
 *{
-    font-family: "Pangolin", cursive;
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.destacado {
+    font-family: "Bree Serif", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.lila{
-    background-color: #dabff4;
+.lila, li:hover{
+    background-color: #dfd0ed;
 }
 
 .crema{
-    color: #fffed6;
+    background-color: #f7f0e6;
 }
 
-.crema-fondo{
-    background-color: #fff6e5;
+.verde{
+    background-color: #c7dbd0;
+}
+
+.verde2 {
+    background-color: #c9ce8c;
+}
+
+.celeste{
+    background-color: #bbd4ea;
+}
+
+.cards1 {
+    width: 300px;
 }
