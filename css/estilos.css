@@ -13,26 +13,33 @@
     font-style: normal;
 }
 
-.lila, li:hover{
-    background-color: #dfd0ed;
-}
-
+/*Colores*/
 .crema{
     background-color: #f7f0e6;
 }
-
 .verde{
     background-color: #c7dbd0;
 }
-
-.verde2 {
+.verde2, .boton1:hover {
     background-color: #c9ce8c;
 }
-
 .celeste{
     background-color: #bbd4ea;
 }
+.rosa, .seccionActiva{
+    background-color: #fdd7e6;
+}
+.rosa2, .boton2:hover, li a:hover{
+    background-color: #f9adcb;
+}
+
 
 .cards1 {
     width: 300px;
+}
+.cards1{
+    transition: transform 0.5s ease;
+}
+.cards1:hover{
+    transform: scale(1.02);
 }
