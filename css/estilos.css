@@ -1,45 +1,58 @@
 *{
-    font-family: "Afacad Flux", serif;
+font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
+    color: #665929;
 }
 
+/*----------Header----------*/
+#titulomain {
+    font-family: "Autour One", system-ui;
+    font-weight: 500;
+    font-style: bold;
+    text-align: center;
+}
+.nav-link {
+    transition: transform 0.3s ease;
+}
+.nav-link:hover {
+    color: #665929;
+    transform: scale(1.02);
+}
+
+/*----------Main----------*/
 .destacado {
-    font-family: "Bree Serif", serif;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-
-/*Colores*/
-.crema{
-    background-color: #f7f0e6;
+.boton1{
+    font-weight: 500;
+    color: #665929;
 }
-.verde{
-    background-color: #c7dbd0;
+.boton1:hover{
+    background-color: #665929;
+    color: #f1b598;
 }
-.verde2, .boton1:hover {
-    background-color: #c9ce8c;
-}
-.celeste{
-    background-color: #bbd4ea;
-}
-.rosa, .seccionActiva{
-    background-color: #fdd7e6;
-}
-.rosa2, .boton2:hover, li a:hover{
-    background-color: #f9adcb;
-}
-
-
 .cards1 {
     width: 300px;
 }
-.cards1{
+.cards1, .boton1 {
     transition: transform 0.5s ease;
 }
-.cards1:hover{
+.cards1:hover, .boton1:hover {
     transform: scale(1.02);
+}
+
+/*----------Colores----------*/
+.lila {
+    background-color: #ddd3e0;
+}
+.crema{
+    background-color: #fbf0e7;
+}
+.salmon{
+    background-color: #f1b598;
 }
