@@ -1,43 +1,59 @@
 *{
-font-family: "Work Sans", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-    color: #665929;
+    color: #264313;
 }
 
 /*----------Header----------*/
-#titulomain {
-    font-family: "Autour One", system-ui;
-    font-weight: 500;
-    font-style: bold;
+.titulomain {
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    color: #577631;
+    text-decoration: none;
+}
+.nav-link, .dropdown-item {
+    transition: transform 0.3s ease;
+    background-color: #597731;
+    color: #fdf5e0;
+}
+.nav-link:hover, .dropdown-item:hover {
+    transform: scale(1.02);
+    background-color: #597731;
+    color: #fdf5e0;
+}
+.nav-link::after, .nav-link.dropdown-toggle, .nav-link.dropdown-toggle[aria-expanded="true"]{
+    color: #fdf5e0;
     text-align: center;
 }
-.nav-link {
-    transition: transform 0.3s ease;
+.nav-link:visited{
+    color: #fdf5e0;
 }
-.nav-link:hover {
-    color: #665929;
-    transform: scale(1.02);
+.dentro, .dentro:visited, .nav-link.dropdown-toggle.dentro:visited, .nav-link.dentro:visited::after{
+    background-color: #fdf5e0;
+    color: #577631;
+}
+.principal{
+    font-style: italic;
+    font-size: large;
+    font-weight: 800;
 }
 
 /*----------Main----------*/
 .destacado {
-    font-family: "Merriweather", serif;
-    font-optical-sizing: auto;
+    font-family: "Coustard", serif;
     font-weight: 400;
     font-style: normal;
+    color: #264313;
 }
-.boton1{
+.boton1, .boton1:hover{
     font-weight: 500;
-    color: #665929;
-}
-.boton1:hover{
-    background-color: #665929;
-    color: #f1b598;
-}
-.cards1 {
-    width: 300px;
+    background-color: #597731;
+    color: #fdf5e0;
 }
 .cards1, .boton1 {
     transition: transform 0.5s ease;
@@ -46,13 +62,33 @@ font-family: "Work Sans", sans-serif;
     transform: scale(1.02);
 }
 
+/*----------Pie de página----------*/
+footer p, footer div a svg{
+    color: #fdf5e0;
+    fill: #fdf5e0;
+}
+
 /*----------Colores----------*/
-.lila {
-    background-color: #ddd3e0;
+.verde {
+    background-color: #597731;
 }
-.crema{
-    background-color: #fbf0e7;
+.crema1 {
+    background-color: #fdf5e0;
 }
-.salmon{
-    background-color: #f1b598;
+.crema2 {
+    background-color: #e6ddc4;
+}
+.cremaFont{
+    color: #fdf5e0;
+}
+
+@media (min-width: 576px) {
+    .cards1  {
+        width: 400px;
+    }
+}
+@media (min-width: 992px) {
+    .cards1 {
+        width: 300px;
+    }
 }

@@ -3,43 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entre Puntos - Materiales</title>
+    <title>Entre Puntos - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@500&family=Bree+Serif&display=swap" rel="stylesheet">
-    <link href="../css/estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Coustard:wght@400;900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="/css/estilos.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container-fluid p-0">
+<body class="crema1">
+    <div class="container-fluid container-lg m-lg-auto">
         <header>
-            <div class="justify-content-between d-xl-flex justify-content-xl-center align-items-center py-3">
-                <nav class="navbar navbar-expand-xl p-2">
-                    <a href="../index.html" class="nav-link">
-                        <img src="../img/logo.png" alt="logo Entre Puntos" class="mx-5">
-                    </a>
+            <div class="my-3 p-0 titulomain">
+                <a class="m-0 titulomain" href="/index.html">entre puntos</a>
+            </div>
+            <div class="justify-content-around d-lg-flex justify-content-lg-center align-items-center py-1 rounded-4 verde">
+                <nav class="navbar navbar-expand-lg p-1">
                     <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navegador">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse fs-5" id="navegador">
+                    <div class="collapse navbar-collapse fs-6" id="navegador">
                         <ul class="navbar-nav align-items-center">
                             <li class="nav-item mx-4">
-                                <a class="nav-link rounded-5 p-2" href="../crochet/index.html">CROCHET</a>
+                                <a class="nav-link rounded-5 p-2" href="/crochet/index.html">CROCHET</a>
+                            </li>
+                            <li class="nav-item mx-4 dropdown">
+                                <a class="nav-link rounded-5 p-2 dropdown-toggle dentro" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MATERIALES</a>
+                                <ul class="dropdown-menu border-0 p-2 rounded-bottom-4 verde">
+                                    <li><a class="dropdown-item cremaFont principal" href="#">¿Qué necesito?</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="fundamentales.html">Fundamentales</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="hilos.html">Hilos</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="accesorios.html">Accesorios</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-4 dropdown">
+                                <a class="nav-link rounded-5 p-2 dropdown-toggle" href="/tutoriales/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">TUTORIALES</a>
+                                <ul class="dropdown-menu border-0 p-2 rounded-bottom-4 verde">
+                                    <li><a class="dropdown-item cremaFont principal" href="/tutoriales/index.html">¿Como empiezo?</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="/tutoriales/principiante.html">Principiante</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="/tutoriales/intermedio.html">Intermedio</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="/tutoriales/avanzado.html">Avanzado</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link active rounded-5 p-2 seccionActiva" aria-current="page" href="#">MATERIALES</a>
+                                <a class="nav-link rounded-5 p-2" href="/comunidad/index.html">COMUNIDAD</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link rounded-5 p-2" href="../tutoriales/index.html">TUTORIALES</a>
+                                <a class="nav-link rounded-5 p-2" href="/juego/index.html">JUEGO</a>
                             </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link rounded-5 p-2" href="../comunidad/index.html">COMUNIDAD</a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link rounded-5 p-2" href="../juego/index.html">JUEGO</a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link rounded-5 p-2" href="../contacto/index.html">CONTACTO</a>
+                            <li class="nav-item mx-4 dropdown">
+                                <a class="nav-link rounded-5 p-2 dropdown-toggle" href="/contacto/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">CONTACTO</a>
+                                <ul class="dropdown-menu border-0 p-2 rounded-bottom-4 verde">
+                                    <li><a class="dropdown-item cremaFont principal" href="/contacto/index.html">¡Hola!</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="/contacto/sobremi.html">Sobre mi</a></li>
+                                    <li><a class="dropdown-item cremaFont" href="/contacto/unite.html">Unite</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -47,9 +64,45 @@
             </div>
         </header>
         <main>
-            
+            <section>
+                <div class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center align-items-center p-5 m-0">
+                    <div class="col-11 col-lg-5 py-2 mx-0 mx-md-5 text-center">
+                        <h1 class="destacado text-center fs-2">¿Qué necesito para adentrarme en el mundo del crochet?</h1>
+                        <p class="fs-5">Si estás dando tus primeros pasos o buscando un repaso de los elementos clave, esta sección es tu guía. Para crear esas hermosas piezas tejidas que tanto admiramos, solo necesitas unos pocos materiales fundamentales. Elegirlos correctamente hará que tu experiencia sea mucho más placentera y que tus proyectos cobren vida con facilidad.
+                        Aquí te presentamos los materiales esenciales que te acompañarán en cada puntada, desde los hilos y agujas hasta esos pequeños accesorios que marcan una gran diferencia.
+                        </p>
+                    </div>
+                    <img src="/img/materiales2.png" alt="crochet" class="pb-5 pb-lg-0 rounded-5">
+                </div>    
+            </section>
+            <section class="d-flex flex-row flex-wrap flex-lg- justify-content-center gap-3 p-5 mb-5 rounded-4 crema2">
+                <a href="materiales/index.html" class="btn">
+                    <div class="card border-0 cards1 rounded-4">
+                        <img src="/img/fundamentales.png" alt="Materiales crochet" class="card-img-top rounded-top-4">
+                        <div class="card-body text-center">
+                            <h2 class="destacado">Fundamentales</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="materiales/index.html" class="btn">
+                    <div class="card border-0 cards1 rounded-4">
+                        <img src="/img/hilos.png" alt="Materiales crochet" class="card-img-top rounded-top-4">
+                        <div class="card-body text-center">
+                            <h2 class="destacado">Hilos</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="materiales/index.html" class="btn">
+                    <div class="card border-0 cards1 rounded-4">
+                        <img src="/img/accesorios.png" alt="Materiales crochet" class="card-img-top rounded-top-4">
+                        <div class="card-body text-center">
+                            <h2 class="destacado">Accesorios</h2>
+                        </div>
+                    </div>
+                </a>
+            </section>
         </main>
-        <footer class="verde2 p-5 d-flex justify-content-center align-items-center gap-5">
+        <footer class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-5 rounded-top-4 p-5 verde">
             <div>
                 <p class="m-0 fs-5">Mantenete en contacto:</p>
             </div>
