@@ -61,7 +61,9 @@
 .cards1:hover, .boton1:hover {
     transform: scale(1.02);
 }
-
+a{
+    text-decoration: none;
+}
 /*----------Pie de página----------*/
 footer p, footer div a svg{
     color: #fdf5e0;
