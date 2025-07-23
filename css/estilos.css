@@ -62,6 +62,33 @@ a{
 iframe{
     border-radius: 1.5em;
 }
+.galeria img{
+    transition: filter 0.5s ease;
+}
+.galeria img:hover, .image-container:hover img{
+    filter: blur(3px);
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+}
+.image-container .ver-mas-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 2;
+}
+.image-container:hover .ver-mas-btn {
+    opacity: 1;
+}
+.autores{
+    font-style: italic;
+    font-weight: 400;
+}
 
 /*----------Pie de página----------*/
 footer p, footer div a i{
