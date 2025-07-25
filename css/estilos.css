@@ -28,7 +28,7 @@
 .nav-link::after, .nav-link.dropdown-toggle::after, .nav-link.dropdown-toggle[aria-expanded="true"]{
     color: #fdf5e0;
 }
-.dentro, .dentro:visited, .nav-link.dropdown-toggle.dentro:visited, .nav-link.dentro:visited::after{
+.dentro, .dentro:visited, .nav-link.dropdown-toggle.dentro:visited, .nav-link.dropdown-toggle.dentro::after, .nav-link.dentro:visited::after{
     background-color: #fdf5e0;
     color: #577631;
 }

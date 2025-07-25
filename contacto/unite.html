@@ -65,6 +65,48 @@
             </div>
         </header>
         <main>
+            <section class="p-5">
+                <h1 class="destacado">¡Conectemos a través del hilo!</h1>
+                <p>Esta es tu espacio para compartir ideas, hacer preguntas o simplemente mostrar tus hermosas piezas de crochet. Creo firmemente que la creatividad florece cuando la compartimos, y me encantaría ver cómo mis patrones o inspiraciones han cobrado vida en tus manos.
+                Si tienes comentarios, sugerencias, o quieres compartir fotos de tus proyectos terminados, por favor, usa el formulario. ¡Cada mensaje es una alegría y una oportunidad para crecer juntos en esta hermosa comunidad crochetera!</p>
+            </section>
+            <section class="crema2 p-5 rounded-4 mb-5">
+                <form class="row g-3 needs-validation formulario" novalidate>
+                    <div class="col-sm-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="" minlength="2" required>
+                        <div class="invalid-feedback">
+                            Por favor, ingrese su nombre.
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" minlength="2" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Por favor, ingrese su apellido.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="mail" class="form-label">Mail</label>
+                        <input type="email" class="form-control" id="mail" placeholder="ejemplo@ejemplo.com" required>
+                        <div class="invalid-feedback">
+                            Por favor, ingrese un mail válido
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="archivos" class="form-label">Archivos <span class="text-body-secondary">(Opcional)</span></label>
+                        <input class="form-control" type="file" id="archivos" multiple>
+                    </div>
+                    <div class="col-12">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" placeholder="Dejá tus ideas por acá..." minlength="4" required></textarea>
+                        <div class="invalid-feedback">
+                            Envia un mensaje para saber tus ideas
+                        </div>
+                    </div>
+                    <button class="w-100 btn boton1 btn-lg mt-5 border-0" type="submit">Enviar</button>
+                </form>
+            </section>
         </main>
         <footer class="d-flex flex-row flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-5 rounded-top-4 p-5 verde">
             <div>
