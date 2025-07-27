@@ -28,7 +28,7 @@
 .nav-link::after, .nav-link.dropdown-toggle::after, .nav-link.dropdown-toggle[aria-expanded="true"]{
     color: #fdf5e0;
 }
-.dentro, .dentro:visited, .nav-link.dropdown-toggle.dentro:visited, .nav-link.dropdown-toggle.dentro::after, .nav-link.dentro:visited::after{
+.dentro, .dentro:visited, .nav-link.dentro:hover, .nav-link.dropdown-toggle.dentro:visited, .nav-link.dropdown-toggle.dentro::after, .nav-link.dentro:visited::after{
     background-color: #fdf5e0;
     color: #577631;
 }
@@ -50,10 +50,13 @@
     background-color: #597731;
     color: #fdf5e0;
 }
-.cards1, .boton1 {
+.boton2, .boton2:hover{
+    background-color: #fdf5e0;
+}
+.cards1, .boton1, .boton2 {
     transition: transform 0.5s ease;
 }
-.cards1:hover, .boton1:hover {
+.cards1:hover, .boton1:hover, .boton2:hover {
     transform: scale(1.02);
 }
 a{
@@ -94,6 +97,23 @@ iframe{
 footer p, footer div a i{
     color: #fdf5e0;
     fill: #fdf5e0;
+}
+
+/*----------Juego----------*/
+#contenido-cuestionario, #info-juego, #pantalla-final, hr {
+    display: none;
+}
+.quiz-container {
+    max-width: 80%;
+    margin: 50px auto;
+}
+.option-button {
+    width: 100%;
+    text-align: left;
+}
+.quiz-image {
+    max-width: 100%;
+    height: auto;
 }
 
 /*----------Colores----------*/
