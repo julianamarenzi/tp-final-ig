@@ -9,9 +9,8 @@
 .titulomain {
     font-family: "Bagel Fat One", system-ui;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 1.8em;
     font-style: normal;
-    text-align: center;
     color: #577631;
     text-decoration: none;
 }
@@ -109,10 +108,6 @@ footer p, footer div a i{
 #contenido-cuestionario, #info-juego, #pantalla-final, hr {
     display: none;
 }
-.quiz-container {
-    max-width: 80%;
-    margin: 50px auto;
-}
 .option-button {
     width: 100%;
     text-align: left;
@@ -140,9 +135,16 @@ footer p, footer div a i{
     .cards1  {
         width: 400px;
     }
+    .quiz-container{
+        width: 100%;
+    }
 }
 @media (min-width: 992px) {
     .cards1 {
         width: 300px;
+    }
+    .quiz-container{
+        width: 80%;
+        margin: auto;
     }
 }
