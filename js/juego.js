@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let indicePreguntaActual = 0;
     let puntaje = 0;
     let intervaloTemporizador;
-    let tiempoRestante = 60;
+    let tiempoRestante = 90;
 
     // Preguntas
     const preguntas = [
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Función para iniciar el temporizador
     function iniciarTemporizador() {
-        tiempoRestante = 60; // Reiniciar a 60 segundos
+        tiempoRestante = 90; // Reiniciar a 60 segundos
         actualizarPantallaTemporizador(); // Mostrar 01:00 al inicio
         intervaloTemporizador = setInterval(() => {
             tiempoRestante--;
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function reiniciarJuego() {
         indicePreguntaActual = 0;
         puntaje = 0;
-        tiempoRestante = 60; // Reiniciar el tiempo
+        tiempoRestante = 90; // Reiniciar el tiempo
         marcadorPuntaje.textContent = puntaje;
         actualizarPantallaTemporizador(); // Mostrar 01:00 al reiniciar
         pantallaFinal.style.display = 'none';

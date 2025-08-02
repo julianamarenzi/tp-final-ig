@@ -95,6 +95,9 @@ iframe{
 p{
     font-size: 1.1em;
 }
+#galeriaModal #modalImagen:hover {
+    filter: none;
+}
 
 /*----------Pie de página----------*/
 footer p, footer div a i{

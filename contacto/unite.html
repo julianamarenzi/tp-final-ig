@@ -71,35 +71,35 @@
                 Si tienes comentarios, sugerencias, o quieres compartir fotos de tus proyectos terminados, por favor, usa el formulario. ¡Cada mensaje es una alegría y una oportunidad para crecer juntos en esta hermosa comunidad crochetera!</p>
             </section>
             <div class="crema2 p-5 rounded-4 mb-5">
-                <form class="row g-3 needs-validation formulario" novalidate>
+                <form action="https://formsubmit.co/julimarenzi@live.com.ar" method="POST" class="row g-3 needs-validation formulario" novalidate>
                     <div class="col-sm-6">
                         <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="" minlength="2" required>
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="" minlength="2" required>
                         <div class="invalid-feedback">
                             Por favor, ingrese su nombre.
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <label for="apellido" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" minlength="2" placeholder="" value="" required>
+                        <input type="text" class="form-control" name="apellido" id="apellido" minlength="2" placeholder="" value="" required>
                         <div class="invalid-feedback">
                             Por favor, ingrese su apellido.
                         </div>
                     </div>
                     <div class="col-12">
                         <label for="mail" class="form-label">Mail</label>
-                        <input type="email" class="form-control" id="mail" placeholder="ejemplo@ejemplo.com" required>
+                        <input type="email" class="form-control" name="mail" id="mail" placeholder="ejemplo@ejemplo.com" required>
                         <div class="invalid-feedback">
                             Por favor, ingrese un mail válido
                         </div>
                     </div>
                     <div class="mb-3">
                         <label for="archivos" class="form-label">Archivos <span class="text-body-secondary">(Opcional)</span></label>
-                        <input class="form-control" type="file" id="archivos" multiple>
+                        <input class="form-control" type="file" name="archivos" id="archivos" multiple>
                     </div>
                     <div class="col-12">
                         <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" placeholder="Dejá tus ideas por acá..." minlength="4" required></textarea>
+                        <textarea class="form-control" name="mensaje" id="mensaje" placeholder="Dejá tus ideas por acá..." minlength="4" required></textarea>
                         <div class="invalid-feedback">
                             Envia un mensaje para saber tus ideas
                         </div>
